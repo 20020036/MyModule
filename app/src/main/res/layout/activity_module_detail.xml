@@ -18,7 +18,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Module Code: \nModule Name: \n\nAcademic Year: \nSemester: \nModule Credit: \nVenue: "
+            android:text="@string/general"
             android:textSize="18sp" />
 
         <TextView
@@ -34,6 +34,6 @@
         android:id="@+id/btnBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="GO BACK" />
+        android:text="@string/go_back" />
 
 </LinearLayout>
